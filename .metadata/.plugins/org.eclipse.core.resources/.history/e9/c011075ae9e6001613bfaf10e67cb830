@@ -1,0 +1,17 @@
+package com.philip.hashmap;
+
+import java.util.HashMap;
+
+public class HashMapEx {
+
+	public HashMap<Integer, Student> buildHashMap (Student[] students) {
+		HashMap<Integer, Student> myHashMap = new HashMap<Integer, Student> ();
+		Integer i = 0;
+		for (Student s: students) {
+			myHashMap.put(i++, s);
+		}
+		
+		return myHashMap;
+	}
+	
+}

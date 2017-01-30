@@ -1,0 +1,8 @@
+
+public class HashMapEx {
+
+	public HashMap<Integer, Student> buildHashMap (Student[] students) {
+		
+	}
+	
+}

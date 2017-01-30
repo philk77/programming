@@ -1,0 +1,9 @@
+package com.philip.hashmap;
+
+public class HashMapEx {
+
+	public HashMap<Integer, Student> buildHashMap (Student[] students) {
+		
+	}
+	
+}
